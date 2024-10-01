@@ -1,0 +1,110 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0;
+    color: #333;
+    font-size: 2.5rem; /* Larger heading */
+}
+
+/* Navbar styles */
+.navbar {
+    padding: 1rem 2rem; /* Adjust padding for a taller navbar */
+    background-color: #007bff; /* Blue background */
+}
+
+.navbar-brand,
+.nav-link {
+    color: white; /* White text */
+}
+
+.nav-link:hover {
+    color: #d1e7ff; /* Light blue on hover */
+}
+
+/* Form styles */
+form {
+    max-width: 400px; /* Set a max width for the form */
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    display: block; /* Display label as a block */
+    margin-bottom: 5px; /* Space below label */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px; /* Space below input */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #0056b3; /* Focus border color */
+    outline: none; /* Remove outline */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0056b3; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #004494; /* Darken button on hover */
+}
+
+/* Camp container styles */
+.camps-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.camp-box {
+    width: 80%; /* Make camp boxes take more width */
+    min-height: 150px; /* Set a minimum height for boxes */
+    margin: 10px 0; /* Margin between boxes */
+    padding: 15px;
+    background-color: #ffffff;
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.camp-box:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+}
+
+.camp-name {
+    font-size: 1.5rem; /* Larger font size for camp name */
+    font-weight: 600;
+    color: #007bff; /* Blue color for camp name */
+}
+
+.camp-description {
+    padding-top: 5px;
+    color: #555; /* Darker gray for description */
+}
